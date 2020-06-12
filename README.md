@@ -1,6 +1,10 @@
 # Chemistry
 Programs to make my chem calculations easier
 
+Most Macs have python, however some Windows computers may not. To download and install Python, go to https://www.python.org/downloads/
+And follow the instructions.
+
+
 For anyone new to python programming, all you have to do to use the program is:
 
 1. copy the code to a notepad or something of the like and save the file as the filename.py on your desktop.
