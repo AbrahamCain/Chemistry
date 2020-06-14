@@ -1,4 +1,4 @@
-# Chemistry Calcucle=t
+# Chemistry Calculator
 
 Most Macs have python, however some Windows computers may not. To download and install Python, go to https://www.python.org/downloads/  and follow the instructions.
 
