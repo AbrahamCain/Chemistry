@@ -11,12 +11,18 @@ options = """
 5.  Force given Distance and Work
 6.  Distance given Work and Force
 
+7.  Atoms from Grams
+8.  Atoms from Moles
+9.  Moles from Atoms
+10. Moles from Grams
+11. Grams from Atoms
+12. Grams from Moles
 """
 print("Welcome to the formula calculator".center(71, "!"))
 print("\nPlease choose one of the following to calculate:")
 print(options)
 
-optionalNums = [1, 2, 3, 4, 5, 6]
+optionalNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 #Keep asking to run programs until the user is done
 while True:
@@ -41,6 +47,19 @@ while True:
         os.system("python force.py")  
     elif (choice == 6):
         os.system("python distance.py")
+    elif (choice == 7):
+        os.system("python atomsFromGrams.py") 
+    elif (choice == 8):
+        os.system("python atomsFromMoles.py")
+    elif (choice == 9):
+        os.system("python molesFromAtoms.py")
+    elif (choice == 10):
+        os.system("python molesFromGrams.py")
+    elif (choice == 11):
+        os.system("python gramsFromAtoms.py")
+    elif (choice == 12):
+        os.system("python gramsFromMoles.py")
+
 
     keepGoing = input("Would you like to run another program? (Y or N)\n-->")
     if (keepGoing.upper() == "Y"):
