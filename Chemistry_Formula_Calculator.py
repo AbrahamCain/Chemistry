@@ -17,12 +17,14 @@ options = """
 10. Moles from Grams
 11. Grams from Atoms
 12. Grams from Moles
+
+13. Find the moles or grams needed to ballance the reaction
 """
 print("Welcome to the formula calculator".center(71, "!"))
 print("\nPlease choose one of the following to calculate:")
 print(options)
 
-optionalNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+optionalNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 #Keep asking to run programs until the user is done
 while True:
@@ -59,6 +61,8 @@ while True:
         os.system("python gramsFromAtoms.py")
     elif (choice == 12):
         os.system("python gramsFromMoles.py")
+    elif (choice == 13):
+        os.system("python molesNeeded.py")
 
 
     keepGoing = input("Would you like to run another program? (Y or N)\n-->")
