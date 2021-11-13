@@ -5,7 +5,7 @@ Most Macs have python, however some Windows computers may not. To download and i
 
 For anyone new to python programming and github, all you have to do to use the program is:
 
-1. Click on the Green button titled "Clone or Download".
+1. Click on the Green button titled "Code".
 
 2. Then Click on "Download ZIP".
 
